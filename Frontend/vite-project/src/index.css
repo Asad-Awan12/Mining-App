@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins";
+}
+
+div.error-input,
+select.error-input {
+  border-color: red;
+  /* border: 2px solid red; */
+}
+/* Disable hover background on phone input dropdown */
+/* .react-tel-input .country-list .country:hover {
+  background-color: transparent !important;
+} */
+.react-tel-input .country-list .country:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+}
